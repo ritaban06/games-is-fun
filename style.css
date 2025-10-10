@@ -1,0 +1,40 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0d1117;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #161b22;
+  padding: 2rem;
+}
+
+h1 {
+  color: #58a6ff;
+}
+
+#games-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.game-card {
+  background: #21262d;
+  padding: 1rem;
+  border-radius: 12px;
+  transition: transform 0.2s;
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
+  color: #58a6ff;
+}
