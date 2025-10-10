@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; background: #eef6ff; margin: 0; display:flex; align-items:center; justify-content:center; height:100vh }
+#rps { width: 360px; background: #fff; padding: 14px; border-radius: 8px; box-shadow: 0 8px 20px rgba(16,24,40,0.06); }
+.score { text-align: center; font-weight: bold; margin-bottom: 12px; }
+.choices { display:flex; justify-content: space-around; margin-bottom: 12px; }
+.choices button { padding: 8px 14px; border-radius: 6px; border: 1px solid #ccc; background: #f8f9ff; cursor: pointer; }
+.result { text-align: center; color: #333; }

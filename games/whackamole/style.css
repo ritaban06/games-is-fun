@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; background: #f4f7ee; margin: 0; display:flex; align-items:center; justify-content:center; height:100vh }
+#whackamole { width: 340px; }
+.info { text-align: center; margin-bottom: 8px; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.hole { background: #6b3; height: 80px; border-radius: 8px; position: relative; cursor: pointer; }
+.hole.mole::after { content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 56px; height: 56px; background: radial-gradient(circle at 40% 30%, #ffd, #bb3); border-radius: 50%; box-shadow: inset -6px -6px 12px rgba(0,0,0,0.12); }

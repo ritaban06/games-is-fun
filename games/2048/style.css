@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; background: #f8f4ef; margin: 0; display: flex; align-items: center; justify-content: center; height: 100vh; }
+#game2048 { width: 320px; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; background: #bbada0; padding: 12px; border-radius: 8px; }
+.cell { width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px; border-radius: 4px; background: #eee4da; }
