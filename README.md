@@ -47,7 +47,7 @@ mini-js-games-hub/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/ritaban06/mini-js-games-hub.git
+git clone https://github.com/ritabancollege06/games-is-fun.git
 cd mini-js-games-hub
 ```
 

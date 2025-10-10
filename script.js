@@ -11,6 +11,26 @@ const games = [
     name: "Memory Game",
     path: "games/memory/index.html",
   },
+  {
+    name: "Pong Game",
+    path: "games/pong/index.html",
+  },
+  {
+    name: "Breakout Game",
+    path: "games/breakout/index.html",
+  },
+  {
+    name: "2048 Game",
+    path: "games/2048/index.html",
+  },
+  {
+    name: "Whack-a-Mole",
+    path: "games/whackamole/index.html",
+  },
+  {
+    name: "Rock Paper Scissors",
+    path: "games/rockpaperscissors/index.html",
+  },
 ];
 
 const container = document.getElementById("games-container");
