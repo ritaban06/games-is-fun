@@ -31,6 +31,26 @@ const games = [
     name: "Rock Paper Scissors",
     path: "games/rockpaperscissors/index.html",
   },
+  {
+    name: "Minesweeper",
+    path: "games/minesweeper/index.html",
+  },
+  {
+    name: "Connect Four",
+    path: "games/connectfour/index.html",
+  },
+  {
+    name: "Simon",
+    path: "games/simon/index.html",
+  },
+  {
+    name: "Hangman",
+    path: "games/hangman/index.html",
+  },
+  {
+    name: "Flappy",
+    path: "games/flappybird/index.html",
+  },
 ];
 
 const container = document.getElementById("games-container");

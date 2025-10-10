@@ -1,0 +1,9 @@
+body{font-family:Arial, sans-serif; text-align:center}
+#pad{width:240px;margin:12px auto;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.btn{width:110px;height:110px;border-radius:12px;cursor:pointer;opacity:0.9}
+.btn.green{background: #2ecc71}
+.btn.red{background:#e74c3c}
+.btn.yellow{background:#f1c40f}
+.btn.blue{background:#3498db}
+.flash{filter:brightness(1.6)}
+#controls{margin-bottom:8px}
