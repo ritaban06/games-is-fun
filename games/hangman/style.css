@@ -1,0 +1,5 @@
+body{font-family:Arial, sans-serif; text-align:center}
+#word{font-size:24px;letter-spacing:8px;margin:12px}
+#letters{max-width:520px;margin:0 auto;display:flex;flex-wrap:wrap;gap:6px}
+.letter{width:32px;height:32px;border:1px solid #ccc;display:flex;align-items:center;justify-content:center;cursor:pointer}
+#controls{margin-bottom:8px}
