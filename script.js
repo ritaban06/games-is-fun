@@ -66,6 +66,26 @@ const games = [
   {
     name: "Sudoku",
     path: "games/sudoku/index.html",
+  },
+  {
+    name: "Balloon Pop",
+    path: "games/balloon-pop/index.html",
+  },
+  {
+    name: "Catch the Dot",
+    path: "games/Catch_The_Dot/index.html",
+  },
+  {
+    name: "Catch the Ball",
+    path: "games/catch-the-ball/index.html",
+  },
+  {
+    name: "Coin Flip Simulator",
+    path: "games/coin_toss_simulator/index.html",
+  },
+  {
+    name: "Flappy Bird",
+    path: "games/flappy-bird/index.html",
   }
 ];
 
