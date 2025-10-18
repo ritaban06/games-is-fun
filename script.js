@@ -51,6 +51,22 @@ const games = [
     name: "Flappy",
     path: "games/flappybird/index.html",
   },
+  {
+    name: "Meme Generator",
+    path: "games/meme-generator/index.html",
+  },
+  {
+    name: "Number Guessing Game",
+    path: "games/Number_Gussing_game/index.html",
+  },
+  {
+    name: "Reaction Time Test",
+    path: "games/reaction-timer/index.html",
+  },
+  {
+    name: "Sudoku",
+    path: "games/sudoku/index.html",
+  }
 ];
 
 const container = document.getElementById("games-container");
